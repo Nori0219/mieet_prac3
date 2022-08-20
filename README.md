@@ -1,6 +1,10 @@
 # pixabay
 
-A new Flutter project.
+内容の難易度がかなり高くなりついていくのに苦労した。関数の種類も多く理解はあまり出来なかったが、仕組みはなんとなくつかめた。
+
+flutter 大学④ WebAPIと連携してフリー画像検索アプリを作ろう
+
+https://www.youtube.com/watch?v=vdYrRkgk20E&list=PLuLRJz1UnJzEi2Ut24UtPlJfxGhqriFz7&index=4
 
 ## Getting Started
 
