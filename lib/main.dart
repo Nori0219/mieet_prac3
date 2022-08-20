@@ -89,7 +89,7 @@ Future<void> shareImage(String url)async{
       ),
       body: GridView.builder(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
-        itemCount: hits.length,
+        itemCount: PixabayImages.length,
         itemBuilder: (context, index) {
           final PixabayImage = PixabayImages[index];
           return InkWell(
@@ -100,7 +100,7 @@ Future<void> shareImage(String url)async{
               fit: StackFit.expand,
               children: [
                 Image.network(
-                  PixabayImage[PixabayImage.previewURL],
+                  PixabayImage.previewURL,
                   fit: BoxFit.cover,
                   ),
                 Align(
